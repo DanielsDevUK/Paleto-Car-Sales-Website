@@ -1,0 +1,55 @@
+* {font-family: 'TruenoLight';}
+
+html, body {
+    height: 100%;
+}
+
+.background-color {
+    background: rgb(54,34,106);
+    background: linear-gradient(288deg, rgba(54,34,106,1) 0%, rgba(27,17,49,1) 100%);
+}
+
+.bg-custom {
+    color: white; 
+    background: #0000003b; 
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.nav-item a {
+    color: white; 
+    font-size: x-large;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.text h1 {
+    font-size: 60px;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-family: 'TruenoLight';
+}
+
+.card {
+    background: #00000075;
+    color: white;
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card h6 {
+    line-height: 30px;
+}
+
+.top {
+    margin-top: 4rem;
+}

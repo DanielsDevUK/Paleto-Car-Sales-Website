@@ -1,0 +1,104 @@
+* {font-family: 'TruenoLight';}
+
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: rgb(54,34,106);
+    background: linear-gradient(288deg, rgba(54,34,106,1) 0%, rgba(27,17,49,1) 100%);
+    padding-top: 6.5rem;
+}
+
+html {
+    height: 100%;
+}
+
+.securify-text {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.box {
+    padding: 40px;
+    background: #0000003b;
+    text-align: center;
+    transition: 0.25s;
+    width: 400px;
+    border-radius: 24px;
+    margin-top: 30rem;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 300px;
+    border-color: #ffffff
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 25px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 7px 10px;
+    width: 150px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.box input[type="submit"]:hover {
+    background: rgba(255, 255, 255, 0.055)
+}
+
+::placeholder { 
+    color: rgb(209, 209, 209);
+    opacity: 1;
+}
+  
+:-ms-input-placeholder { 
+    color: rgb(209, 209, 209);
+}
+  
+::-ms-input-placeholder { 
+    color: rgb(209, 209, 209);
+}
+
+::-ms-reveal {
+    filter: invert(100%);
+}
+
+.securify-text {
+    margin-top: 5rem;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+@media only screen and (max-width:300px) { 
+    .securify-text{
+        width: 100%;
+    }
+}
