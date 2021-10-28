@@ -1,0 +1,4 @@
+{"vehicles": [
+  {"name": "Blitsa", "make": "Benjero", "plate": "654 898", "status": "Rented", "rented_by": "Benji Smith", "rented_until": "12/31/2021"},
+  {"name": "Faggio Custom", "make": "Faggio", "plate": "634 878", "status": "Rented", "rented_by": "Alex Walsh", "rented_until": "12/31/2021"},
+  ]}
