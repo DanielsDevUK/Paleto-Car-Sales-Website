@@ -18,7 +18,7 @@ $( document ).ready(function() {
                   out+='Status: ' + vehicle.status + '<br>';
                   out+='Plate: ' + vehicle.plate + '<br>';
                   out+='Rented By: ' + vehicle.rented_by + '<br>';
-                  out+='Rented Untit: ' + vehicle.rented_until + '<br>';
+                  out+='Rented Until: ' + vehicle.rented_until + '<br>';
                   out+='</h6></div></div></div>'
                out+='</div>';
                $('.cards').append(out);
